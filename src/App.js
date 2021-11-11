@@ -6,7 +6,6 @@ import Filtro from "./components/Filtro";
 import Header from "./components/Header";
 import Footer from "./components/Footer";
 
-
 const ConstainerPrincipal = styled.div`
   border: 1px solid black;
   display: flex;
@@ -15,7 +14,6 @@ const ConstainerPrincipal = styled.div`
   margin: 20px;
   padding: 10px;
 `;
-
 
 const ContainerCentral = styled.div`
   border: 1px solid black;
@@ -26,31 +24,21 @@ const ContainerCentral = styled.div`
   height: 100%;
 `;
 
-
-
 export default class App extends React.Component {
-
-
   render() {
-
-
     return (
-
-
       <ConstainerPrincipal>
-        <Header/>
+        <Header />
 
         <ContainerCentral>
-          <Filtro></Filtro>
+          <Filtro />
 
-          <Carrinho></Carrinho>
+          <Carrinho />
 
-          <Produtos>
-
-          </Produtos>          
+          <Produtos />
         </ContainerCentral>
 
-        <Footer/>
+        <Footer />
       </ConstainerPrincipal>
     );
   }
