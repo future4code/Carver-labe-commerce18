@@ -11,14 +11,16 @@ const ConstainerPrincipal = styled.div`
   border: 1px solid black;
   display: flex;
   flex-direction: column;
-  height: 200vh;
+  height: 100%;
+  margin: 20px;
+  padding: 10px;
 `;
 
 
 const ContainerCentral = styled.div`
   border: 1px solid black;
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   align-items: center;
   justify-content: center;
   height: 100%;
@@ -41,11 +43,11 @@ export default class App extends React.Component {
         <ContainerCentral>
           <Filtro></Filtro>
 
+          <Carrinho></Carrinho>
+
           <Produtos>
 
-          </Produtos>
-
-          <Carrinho></Carrinho>
+          </Produtos>          
         </ContainerCentral>
 
         <Footer/>

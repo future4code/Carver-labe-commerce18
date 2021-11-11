@@ -10,6 +10,8 @@ const ContainerHeader = styled.div`
 
 export default class Header extends React.Component {
   render() {
-    return <ContainerHeader></ContainerHeader>;
+    return <ContainerHeader>
+      <h1>Header</h1>
+    </ContainerHeader>;
   }
 }

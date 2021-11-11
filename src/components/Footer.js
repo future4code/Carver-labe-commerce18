@@ -10,6 +10,8 @@ const ContainerFooter = styled.div`
 
 export default class Footer extends React.Component {
   render() {
-    return <ContainerFooter></ContainerFooter>;
+    return <ContainerFooter>
+      <h1>footer</h1>
+    </ContainerFooter>;
   }
 }
