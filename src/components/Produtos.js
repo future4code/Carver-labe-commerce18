@@ -20,6 +20,7 @@ const Card = styled.div`
   border: 1px solid red;
   width: 200px;
   height: 300px;
+  align-items:center ;
 `;
 
 const listaDeProdutos = [
@@ -65,22 +66,38 @@ const listaDeProdutos = [
     }
 ]
   
-const listaDeComponentes = listaDeProdutos.map((dado) =>{
-  return <Card > 
-  <img src={dado.imagem} width="200px" alt=""/>
-  <p>{dado.nome} </p>
-  <p>{dado.preco} </p>
-   </Card >
-})
+
 
 export default class Produtos extends React.Component {
 
+  state={
+    produto: listaDeProdutos,
+    carrinho:[],
+    adicionado: false
+  } 
+
+  adicionarCarrinho= ()=>{
+    this.setState({
+     adicionado: true
+    })
+  }
+
   render() {
 
+  const listaDeComponentes = this.state.produto.map((dado) =>{
+  return <Card> 
+  <img src={dado.imagem} width="200px" alt=""/>
+  <p>{dado.nome} </p>
+  <p>{dado.preco} </p>
+  <button onClick={this.adicionarCarrinho}>Adicionar ao carrinho</button>
+   </Card >
+})
     return (
+
       <ContainerProduto>
-      {listaDeComponentes}
+        {listaDeComponentes}
       </ContainerProduto>
+
     );
   }
 }
