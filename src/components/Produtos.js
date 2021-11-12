@@ -25,44 +25,44 @@ const Card = styled.div`
 
 const listaDeProdutos = [
     {
-      imagem:"https://a-static.mlcdn.com.br/618x463/foguete-de-brinquedo-astronautas-exploradores-do-espaco-fun/magazineluiza/226746100/c12e51c59ba5af98cf23b27c6f9ea930.jpg",
-      nome:"nave de brinquedo",
+      imagem:"https://m.media-amazon.com/images/I/51vd9tc6tNL._AC_SX425_.jpg",
+      nome:"Nave Espacial Space",
       preco: 100
     },
     {
-      imagem:"https://a-static.mlcdn.com.br/618x463/foguete-de-brinquedo-astronautas-exploradores-do-espaco-fun/magazineluiza/226746100/c12e51c59ba5af98cf23b27c6f9ea930.jpg",
-      nome:"nave de brinquedo",
-      preco: 100
+      imagem:"https://m.media-amazon.com/images/I/6145xoHIQKL._AC_SY450_.jpg",
+      nome:"Cápsula Espacial",
+      preco: 250
     },
     {
-      imagem:"https://a-static.mlcdn.com.br/618x463/foguete-de-brinquedo-astronautas-exploradores-do-espaco-fun/magazineluiza/226746100/c12e51c59ba5af98cf23b27c6f9ea930.jpg",
-      nome:"nave de brinquedo",
-      preco: 100
+      imagem:"https://a-static.mlcdn.com.br/1500x1500/onibus-espacial-de-brinquedo-play-machine-onibus-espacial-multikids/magazineluiza/181166300/c8dbef63cde29d824f28e79fce3af678.jpg",
+      nome:"Nave Espacial Avançada",
+      preco: 150
     },
     {
-      imagem:"https://a-static.mlcdn.com.br/618x463/foguete-de-brinquedo-astronautas-exploradores-do-espaco-fun/magazineluiza/226746100/c12e51c59ba5af98cf23b27c6f9ea930.jpg",
-      nome:"nave de brinquedo",
-      preco: 100
+      imagem:"https://www.extra-imagens.com.br/Control/ArquivoExibir.aspx?IdArquivo=1878627990",
+      nome:"Kit Espacial",
+      preco: 300
     },
     {
-      imagem:"https://a-static.mlcdn.com.br/618x463/foguete-de-brinquedo-astronautas-exploradores-do-espaco-fun/magazineluiza/226746100/c12e51c59ba5af98cf23b27c6f9ea930.jpg",
-      nome:"nave de brinquedo",
-      preco: 100
+      imagem:"https://www.usecamisetas.com/media/product/4a9/camiseta-infantil-astronauta-espaco-a9b.jpg",
+      nome:"Camiseta Infantil",
+      preco: 60
     },
     {
-      imagem:"https://a-static.mlcdn.com.br/618x463/foguete-de-brinquedo-astronautas-exploradores-do-espaco-fun/magazineluiza/226746100/c12e51c59ba5af98cf23b27c6f9ea930.jpg",
-      nome:"nave de brinquedo",
-      preco: 100
+      imagem:"https://img.elo7.com.br/product/zoom/267813B/camiseta-manga-longa-astronauta-baloes-herois.jpg",
+      nome:"Camiseta Manga Longa",
+      preco: 40
     },
     {
-      imagem:"https://a-static.mlcdn.com.br/618x463/foguete-de-brinquedo-astronautas-exploradores-do-espaco-fun/magazineluiza/226746100/c12e51c59ba5af98cf23b27c6f9ea930.jpg",
-      nome:"nave de brinquedo",
-      preco: 100
+      imagem:"https://www.camisetas4fun.com.br/media/product/cd0/camiseta-astronauta-malabarista-5cd.jpg",
+      nome:"Camiseta Infantil",
+      preco: 60
     },
     {
-      imagem:"https://a-static.mlcdn.com.br/618x463/foguete-de-brinquedo-astronautas-exploradores-do-espaco-fun/magazineluiza/226746100/c12e51c59ba5af98cf23b27c6f9ea930.jpg",
-      nome:"nave de brinquedo",
-      preco: 100
+      imagem:"https://images-americanas.b2w.io/produtos/01/00/img/3057339/2/3057339241_2GG.jpg",
+      nome:"Moletom Infantil",
+      preco: 80
     }
 ]
   
