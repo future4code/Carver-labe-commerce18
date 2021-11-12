@@ -6,21 +6,28 @@ const ContainerProduto = styled.div`
   display: flex;
   width: 100%;
   height: 100%;
-  border: 1px solid black;
   gap: 10px;
   align-content: flex-start;
   justify-content: space-around;
   flex-direction: row;
   flex-wrap: wrap;
+  background-color: lightblue;
 `;
 
 const Card = styled.div`
   display: flex;
   flex-direction: column;
-  border: 1px solid red;
   width: 200px;
-  height: 300px;
+  height: 335px;
   align-items:center ;
+  justify-content: flex-end;
+  box-shadow: 0 0 0.5em blue;
+  background-color: white;
+  p{
+    font-weight: bold;
+    font-size: 15px;
+    font-family: 'Courier New', Courier, monospace;
+  }
 `;
 
 const listaDeProdutos = [
@@ -88,7 +95,7 @@ export default class Produtos extends React.Component {
   return <Card> 
   <img src={dado.imagem} width="200px" alt=""/>
   <p>{dado.nome} </p>
-  <p>{dado.preco} </p>
+  <p>preço : {dado.preco},00 </p>
   <button onClick={this.adicionarCarrinho}>Adicionar ao carrinho</button>
    </Card >
 })

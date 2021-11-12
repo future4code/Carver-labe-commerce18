@@ -7,12 +7,11 @@ import Header from "./components/Header";
 import Footer from "./components/Footer";
 
 const ConstainerPrincipal = styled.div`
-  border: 1px solid black;
   display: flex;
   flex-direction: column;
   height: 100%;
-  margin: 20px;
   padding: 10px;
+  background-color: lightblue;
 `;
 
 const ContainerCentral = styled.div`
