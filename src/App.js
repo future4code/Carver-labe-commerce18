@@ -25,8 +25,11 @@ const ContainerCentral = styled.div`
 `;
 
 export default class App extends React.Component {
+
   render() {
+
     return (
+
       <ConstainerPrincipal>
         <Header />
 
