@@ -12,7 +12,7 @@ export default class Header extends React.Component {
   render() {
     return (
       <ContainerHeader>
-        <h1>Header</h1>
+        <h1>LabECommerce</h1>
       </ContainerHeader>
     );
   }
