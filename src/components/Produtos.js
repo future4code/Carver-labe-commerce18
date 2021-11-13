@@ -102,48 +102,48 @@ const listaDeProdutos = [
     nome: "Camiseta Infantil",
     preco: 60.00
   },
-  { 
-    id: 6,
-    imagem: "https://img.elo7.com.br/product/zoom/267813B/camiseta-manga-longa-astronauta-baloes-herois.jpg",
-    nome: "Camiseta Manga Longa",
-    preco: 40.00
-  },
-  { 
-    id: 7,
-    imagem: "https://www.camisetas4fun.com.br/media/product/cd0/camiseta-astronauta-malabarista-5cd.jpg",
-    nome: "Camiseta Infantil",
-    preco: 60.00
-  },
-  { 
-    id: 8,
-    imagem: "https://images-americanas.b2w.io/produtos/01/00/img/3057339/2/3057339241_2GG.jpg",
-    nome: "Moletom Infantil",
-    preco: 80.00
-  },
-  { 
-    id: 9,
-    imagem: "https://a-static.mlcdn.com.br/1500x1500/onibus-espacial-de-brinquedo-play-machine-onibus-espacial-multikids/magazineluiza/181166300/c8dbef63cde29d824f28e79fce3af678.jpg",
-    nome: "Nave Espacial Avançada",
-    preco: 150.00
-  },
-  { 
-    id: 10,
-    imagem: "https://www.extra-imagens.com.br/Control/ArquivoExibir.aspx?IdArquivo=1878627990",
-    nome: "Kit Espacial",
-    preco: 300.00
-  },
-  { 
-    id: 11,
-    imagem: "https://www.usecamisetas.com/media/product/4a9/camiseta-infantil-astronauta-espaco-a9b.jpg",
-    nome: "Camiseta Infantil",
-    preco: 60.00
-  },
-  { 
-    id: 12,
-    imagem: "https://img.elo7.com.br/product/zoom/267813B/camiseta-manga-longa-astronauta-baloes-herois.jpg",
-    nome: "Camiseta Manga Longa",
-    preco: 40.00
-  },
+  // { 
+  //   id: 6,
+  //   imagem: "https://img.elo7.com.br/product/zoom/267813B/camiseta-manga-longa-astronauta-baloes-herois.jpg",
+  //   nome: "Camiseta Manga Longa",
+  //   preco: 40.00
+  // },
+  // { 
+  //   id: 7,
+  //   imagem: "https://www.camisetas4fun.com.br/media/product/cd0/camiseta-astronauta-malabarista-5cd.jpg",
+  //   nome: "Camiseta Infantil",
+  //   preco: 60.00
+  // },
+  // { 
+  //   id: 8,
+  //   imagem: "https://images-americanas.b2w.io/produtos/01/00/img/3057339/2/3057339241_2GG.jpg",
+  //   nome: "Moletom Infantil",
+  //   preco: 80.00
+  // },
+  // { 
+  //   id: 9,
+  //   imagem: "https://a-static.mlcdn.com.br/1500x1500/onibus-espacial-de-brinquedo-play-machine-onibus-espacial-multikids/magazineluiza/181166300/c8dbef63cde29d824f28e79fce3af678.jpg",
+  //   nome: "Nave Espacial Avançada",
+  //   preco: 150.00
+  // },
+  // { 
+  //   id: 10,
+  //   imagem: "https://www.extra-imagens.com.br/Control/ArquivoExibir.aspx?IdArquivo=1878627990",
+  //   nome: "Kit Espacial",
+  //   preco: 300.00
+  // },
+  // { 
+  //   id: 11,
+  //   imagem: "https://www.usecamisetas.com/media/product/4a9/camiseta-infantil-astronauta-espaco-a9b.jpg",
+  //   nome: "Camiseta Infantil",
+  //   preco: 60.00
+  // },
+  // { 
+  //   id: 12,
+  //   imagem: "https://img.elo7.com.br/product/zoom/267813B/camiseta-manga-longa-astronauta-baloes-herois.jpg",
+  //   nome: "Camiseta Manga Longa",
+  //   preco: 40.00
+  // },
 ];
 
 // Filtros
@@ -171,8 +171,6 @@ export default class Produtos extends React.Component {
     this.setState({
       carrinho: novoCarrinho
     })
-
-
   }
 
   /* adicionarCarrinho= (event) =>{

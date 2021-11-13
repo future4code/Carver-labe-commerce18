@@ -20,7 +20,7 @@ export default class Footer extends React.Component {
   render() {
     return (
       <ContainerFooter>
-        <p>Desenvolvido pelo grupo 18</p>
+        <p>Desenvolvido pelo Grupo 18</p>
         <div>
           <a
             href="https://www.instagram.com/"
