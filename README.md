@@ -1,6 +1,6 @@
 <p align="center">Sejam bem vindos ao LabSpace, esse repositório contém um esqueleto de app React</p>
 
-<p>Somos uma loja especializada na venda de naves, ônibus e foguetes espaciais, e você poderá acessar a AstroRockets aqui.</P>
+<p>Somos uma loja especializada na venda de brinquedos, acessórios e roupas intergaláticas!</P>
 
 <h3>Desenvolvedores:</h3>
 
