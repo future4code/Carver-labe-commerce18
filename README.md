@@ -17,6 +17,11 @@
 * Filtrar a busca por: menor valor, maior valor, nome
 * Site altamente responsivo no celular
 
+<h3> Observações</h3>
+    
+* Tivemos dificuldade com o carrinho de compras
+* Tentamos fazer um site simples, para aplicar os conhecimentos da semana
+* O carrinho não está somando nem agrupando itens iguais
 
 
 # Link do surge:
