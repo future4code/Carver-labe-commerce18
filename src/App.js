@@ -1,8 +1,6 @@
 import React from "react";
 import styled from "styled-components";
 import Produtos from "./components/Produtos";
-import Carrinho from "./components/Carrinho";
-import Filtro from "./components/Filtro";
 import Header from "./components/Header";
 import Footer from "./components/Footer";
 
@@ -11,7 +9,7 @@ const ConstainerPrincipal = styled.div`
   flex-direction: column;
   height: 100%;
   padding: 10px;
-  background-color: lightblue;
+  /* background-color: #0A1172; */
 `;
 
 const ContainerCentral = styled.div`
@@ -24,19 +22,12 @@ const ContainerCentral = styled.div`
 `;
 
 export default class App extends React.Component {
-
   render() {
-
     return (
-
       <ConstainerPrincipal>
         <Header />
 
         <ContainerCentral>
-          <Filtro />
-
-          <Carrinho />
-
           <Produtos />
         </ContainerCentral>
 
