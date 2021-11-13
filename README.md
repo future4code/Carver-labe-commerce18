@@ -19,4 +19,4 @@
 
 
 
-# Link do surge: <a>powerful-pan.surge.sh<a/>
+# Link do surge: https://powerful-pan.surge.sh
