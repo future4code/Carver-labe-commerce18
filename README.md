@@ -23,7 +23,11 @@
 * Tentamos fazer um site simples, para aplicar os conhecimentos da semana
 * O carrinho não está somando nem agrupando itens iguais
 
-<div align="center">
+<div align="center">!
+    
+    [Screenshot_1](https://user-images.githubusercontent.com/88459699/142023429-ccb0ab65-e948-4d0c-af00-2b39ad78c645.png)
+![Screenshot_2](https://user-images.githubusercontent.com/88459699/142023561-536bc741-efae-419a-babf-6665709f356a.png)
+
     <img src="imagens-print/screenshot_1.png" height="400" alt="Screenshot"/> 
 </div>
 <div align="center">
