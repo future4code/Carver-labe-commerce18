@@ -1,26 +1,38 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+import styled from "styled-components";
+import Produtos from "./components/Produtos";
+import Header from "./components/Header";
+import Footer from "./components/Footer";
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+const ConstainerPrincipal = styled.div`
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  padding: 10px;
+  /* background-color: #0A1172; */
+`;
+
+const ContainerCentral = styled.div`
+  border: 1px solid black;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+`;
+
+export default class App extends React.Component {
+  render() {
+    return (
+      <ConstainerPrincipal>
+        <Header />
+
+        <ContainerCentral>
+          <Produtos />
+        </ContainerCentral>
+
+        <Footer />
+      </ConstainerPrincipal>
+    );
+  }
 }
-
-export default App;
